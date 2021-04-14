@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Calibri|Cambria");
+body {
+  font-family: Calibri;
+  font-size: 2em;
+}
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5em solid gray;
+  margin-top: 1em;
+}
+.info:after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  bottom: 18em;
+
+  width: 33%;
+  border-bottom: 0.5em solid lightgrey;
+  margin-left: 5em;
+}
+.info h2 {
+  font-size: 2em;
+  font-family: Cambria;
+}
+.info p {
+  text-align: right;
+}
+.info a {
+  color: rgb(28, 152, 253);
+}
+.summary {
+  display: flex;
+  justify-content: space-between;
+  border-top: 5px solid #635147;
+  border-bottom: 5px solid #635147;
+  margin-top: 1.5em;
+  padding-top: 0;
+  font-size: 1.1em;
+}
+.summary h5 {
+  margin-top: 0;
+}
+.summary p {
+  margin-left: 0.4em;
+  padding-left: 0.4em;
+}
+#skill-set {
+  margin-top: 0.4em;
+  border-bottom: 5px solid #635147;
+}
+th,
+td {
+  width: 4in;
+  text-align: left;
+}
+.career {
+  margin-top: 0;
+  padding-top: 0;
+}
+.history {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+}
+
+.paragraph {
+  list-style-type: none;
+  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.bullets {
+  padding: 0;
+  margin-left: 2em;
+  list-style-type: square;
+}
+.rotary {
+  padding-left: 9.2em;
+  font-size: 1.1em;
+  margin-top: 0;
+}
+.TEF {
+  padding-left: 9.2em;
+  font-size: 1.1em;
+}
+.ACHIEVERS {
+  padding-left: 9.2em;
+  font-size: 1.1em;
+  border-bottom: 5px solid #635147;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.EDUCATION {
+  margin-top: 1em;
+}
+.EDUCATION td {
+  width: 11in;
+}
+.interest {
+  border-bottom: 5px solid #635147;
+}
+.interest h5 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.interest p {
+  font-size: 1.1em;
+  margin-top: 0;
+  padding-top: 0;
+}
